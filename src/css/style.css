@@ -1,0 +1,211 @@
+
+/*# sourceMappingURL=style.css.map */
+/*font-family: 'Roboto', sans-serif;*/
+*{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+  }
+  header{
+      position: relative;
+     
+  }
+  
+  
+  
+  nav{
+      
+      height: 50px;
+      background-color: #212121;
+      padding: 13px 70px;
+  }
+  
+  .menu {
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      list-style-type: none;
+  }
+  
+  .menu_item {
+      padding-right: 15px;
+      border-right: 2px dashed #230E0E;
+  }
+  .menu_item:last-child{
+      border-right: none;
+      padding-right: 0px;
+  
+  }
+  .menu_link {
+      text-decoration: none;       
+      font-weight: 300;
+      color: #ffffff;
+        
+  }
+  .menu_link:hover{
+      color: #C0C0C0;  
+  }
+  
+  .subheader{
+    
+      height: 84px;
+      background-color:rgba(0, 0, 0, .6);    
+  }
+  
+  .subheader_logo img{
+      max-width: 100%;
+      margin-top: 16px;
+  }
+  
+  .sudheader_title{   
+      margin-top: 6px;
+      opacity: 0.5;
+      font-size: 13px;
+      font-weight: 100;
+      color: rgba(255, 255, 255, 0.5);
+        
+  }
+  
+  .sudheader_desc {   
+      margin: 19px 0 0 0;
+      font-size: 12px;
+      font-weight: 300;
+      color: #ffffff;
+      text-align: right;
+      
+  }
+  a.subheader_contact {
+      font-size: 22px;
+      color: #ffffff;
+      text-decoration: none;  
+      text-align: right;
+      display:block;
+      line-height: 21px;
+  }
+  .subheader_btn {
+      margin: 19px 0 0 0;
+      padding: 18px 20px;
+      box-shadow: inset 0px -2px 0 0 rgba(0, 0, 0, 0.12);
+      border: none;
+      border-radius: 4px;
+      background-image: linear-gradient(to top, #1eacc7, #4ce1ffd5);
+  
+     
+      font-size: 14px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-shadow: 0.7px 0.7px 0 rgba(0, 0, 0, 0.21);
+      color: #ffffff;
+      line-height: 11px; 
+  }
+  
+  .subheader_btn:hover{
+      background-image: linear-gradient(to top, #384ad6d2, #4c76ffd5);
+      transition: 2s ease;
+  }
+  
+  /*Секция PROMO*/
+  .promo {
+      width: 100%;
+      background: url('../img/bg_top.jpg') center center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      padding: 150px 0 135px 0;
+      text-align: center;
+  }
+  
+  .promo_title {  
+      font-size: 60px;
+      font-weight: 700;     
+      text-align: center;
+      color: #ffffff;
+        
+  }
+  .promo_desc {
+      padding-bottom: 36px;
+      font-weight: 700; 
+      font-size: 29px;
+      color: #ffffff;
+      line-height: 18px;
+      text-align: center;
+      
+  }
+  .promo_text {
+      margin-bottom: 118px;
+      width:100%;
+      font-size: 18px;
+      line-height: 1.33;
+      color: #ffffff;
+      font-weight: 300;
+      
+  }
+  .promo_btn {
+      display: inline-block;
+      max-width: 259px;
+      height: 58px;
+      padding: 0 39px;
+  
+      box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+      border: none;
+      border-radius: 4px;
+      background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    
+      line-height: 57px;
+      font-size: 18px;
+      text-align: center;
+      color: #ffffff;
+  }
+  
+  .promo_btn:hover{
+      background-image: linear-gradient(to top, #384ad6d2, #4c76ffd5);
+      transition: 2s ease;
+  }
+  
+  
+  .advantages {
+      padding: 133px 0 65px 0;
+  }
+  
+  .advantages_heading {
+      padding-bottom: 60px;
+      font-size: 38px;
+      font-weight: bold;
+      color: #222222;
+      text-transform: uppercase;
+      text-align: center;
+  }
+  
+  .advantages_card {
+      padding-bottom: 40px;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+  
+  }
+  .advantages_circle{
+      padding: 10px;
+      background-color: #1eacc7;
+      max-width: 100%;
+      max-height: 113px;
+      
+      border-radius: 100%;
+      margin-right: 26px;
+  }
+  .advantages_imd {
+      padding: 10px;
+      width: 90px;
+      height: 90px;
+  
+  }
+  .adventages_text{
+  
+      max-width: 352px;
+      max-height: 142px;
+  }
+  .adventages_text span{
+      color: #1eacc7;
+      
+  }
+  
